@@ -3,6 +3,7 @@ phases:
   build:
     commands:
       - echo "**** Starting build (i.e. run workflow)"
+      - git submodule init      
       - git submodule update
       - /home/jovyan/ngrok http --log stdout 8888 &
       - pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite python-frontmatter
