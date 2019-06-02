@@ -4,7 +4,7 @@ phases:
     commands:
       - echo "**** Starting build (i.e. run workflow)"
       - /home/jovyan/ngrok http --log stdout 8888 &
-      - pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite
+      - pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite python-frontmatter
       - cp -R -v .ipython /home/jovyan/
       - cp -R -v .jupyter /home/jovyan/
       - jupyter nbconvert --ExecutePreprocessor.timeout=600 --execute setup/setup.ipynb
