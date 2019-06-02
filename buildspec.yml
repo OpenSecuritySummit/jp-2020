@@ -1,0 +1,11 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - echo "**** Starting build (i.e. run workflow)"
+      - /home/jovyan/ngrok http --log stdout 8888 &
+      - pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite
+      - cp -R -v .ipython /home/jovyan/
+      - cp -R -v .jupyter /home/jovyan/
+      - jupyter nbconvert --ExecutePreprocessor.timeout=600 --execute setup/setup.ipynb
+      - cd notebooks; jupyter notebook --allow-root
