@@ -1,0 +1,105 @@
+Title,Track,Type,Organiser(s),Participants,Remote Participants,Day,Time,Synopsis?,Locked?,OWASP Type,CSF Category,SAMM 2.0 Practice & Stream,Tags,Notes
+Creating Appsec metrics and visualisation,DevSecOps,User,,10,0,Wed,PM-1,Yes,No,Defender,ID.GV,G-SM-B,Metrics,
+WAFs - Understanding and measuring how they behave,DevSecOps,User,George Glass,0,0,,,No,No,Defender,PR.PT,O-EM-A,"Metrics, Infrastructure",
+Writing security tests to confirm vulnerabilities and fixes,DevSecOps,User,Dinis Cruz,10,1,Thu,PM-1,No,No,Builder,RS.MI,O-EM-B,"Testing, Vulnerability Management",
+Agile Practices for Security Teams,DevSecOps,Working,,11,2,Tue,PM-1,Yes,No,Defender,PR.IP,G-PC-A,"Agile, SDLC, Program Management",
+Creating a Security Champions Network,DevSecOps,Working,,3,0,Wed,AM-1,Yes,No,Builder,PR.AT,G-EG-B,"Education, Program Management",
+Dealing with DevSecOps Findings,DevSecOps,Working,"Claudio Camerino, Francisco Novo, Rafael Jimenez",4,3,Wed,"PM-1, PM-2",Yes,No,Defender,RS.MI,I-DM-A,Defect Management,
+DevSecOps Maturity Model (DSOMM),DevSecOps,Working,,7,1,Tue,"PM-1, PM-2, PM-3",Yes?,No,Builder,ID.GV,All,Maturity Models,
+From Threat Modeling to DevSecOps metrics,DevSecOps,Working,,6,3,Thu,PM-1,No,No,Defender,PR.IP,G-SM-B,"Metrics, Threat Modeling, Visualization",
+Integrating Security Tools in the SDL,DevSecOps,Working,,10,2,Thu,"AM-1, PM-1",Yes,No,Builder,PR.IP,V-ST-A,"SDLC, Automation?, Education?, Program Management",
+Secrets Management,DevSecOps,Working,Dominik de Smit,8,1,Wed,PM-1,Yes,No,Builder,PR.AC,I-SD-B,Infrastructure,
+Securing the CI Pipeline,DevSecOps,Working,,15,1,Thu,"PM-2, PM-3",Yes,No,Builder,PR.IP,I-SD-A,"Automation, SDLC",
+Ask me anything (AMA) on GDPR,Misc,User,Tony Richards,3,0,Tue,PM-1,Yes,No,Defender,ID.GV,G-PC-B,"Compliance, GDPR, CISO",
+Introduction to Cynefin Framework (Training Session),Misc,User,Dave Snowden,2,0,Wed,AM-1,No,No,All,ID.GV,G-SM-B,"Cynefin Framework, Project Management",
+Third Party Due Diligence,Misc,User,Didar Gelici,3,0,Thu,DS-2,No,No,Defender,ID.GV,G-PC-B,"Project Management, SDLC",
+Using graphs for GDPR mappings and visualisations,Misc,User,,4,0,Thu,PM-3,Yes,No,Defender,ID.GV,G-PC-B,"GDPR, Visualization",
+Customising the Chaos Engineering Toolkit,Misc,Working,,5,0,Fri,PM-1,Yes,No,Defender,DE.AE,V-ST-A,Testing,
+Cyber Risk Modeling,Misc,Working,Phil Huggins,3,1,Thu,PM-3,No,No,Defender,ID.RM,D-TA-A,"Risk Management, CISO",
+OWASP community-docs,Misc,Working,Jonathan Marcil,,,,,Yes,No,All,PR.AT,G-EG-B,"Outreach, Documentation","No day entered in MarkDown file, times entered as Eve-1, Eve-2 - John D. has reached out to Jonathan for clarification"
+Real world Chaos Engineering,Misc,Working,,7,1,Fri,PM-3,Yes,No,Defender,DE.AE,V-ST-A,"API Security, Testing, Automation",Session is scheduled for Friday at 4:30 p.m. - is this correct?
+Scaling API Security,Misc,Working,,5,1,Thu,DS-2,No,No,Defender,PR.PT,V-ST-A,"API Security, Infrastructure",
+Securing Kubernete's hosted APIs,Misc,Working,,2,0,Thu,DS-2,No,No,Defender,PR.PT,O-EM-A,"API Security, Infrastructure",
+Security Challenges - An Introduction,Misc,Working,Nick Drage,2,0,Mon,PM-1,No,No,All,,,Strategic Challenges,
+Security Challenges - Analyse others,Misc,Working,Nick Drage,0,0,Wed,,Yes,No,All,,,Strategic Challenges,"Meant to be an on-your-own, all-day session - No room or times set"
+"Security Challenges - Analysis, Analogies",Misc,Working,Nick Drage,2,0,Tue,PM-1,Yes,No,All,,,Strategic Challenges,
+Security Challenges - Collate others' strategies and assumptions,Misc,Working,Nick Drage,1,0,Thu,PM-1,Yes,No,All,,,Strategic Challenges,"Meant to be the ""compare notes"" session, after the all-day on-your-own session Wednesday"
+Security Challenges - Next step,Misc,Working,Nick Drage,2,0,Fri,PM-1,Yes,No,All,,,Strategic Challenges,"Meant to be the final wrap-up session for the Strategic Challenges ""mini track"""
+Using Cynefin Framework making strategic security decisions,Misc,Working,Dave Snowden,2,0,Wed,PM-1,No,No,All,ID.GV,G-SM-B,"Cynefin Framework, Project Management",
+Juice Shop 101,OWASP Juice Shop,User,Bjoern Kimminich,1,0,Tue,AM-1,Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Juice Shop Contributor Onboarding,OWASP Juice Shop,User,Bjoern Kimminich,1,0,Tue,PM-1,Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Juice Shop Release Night,OWASP Juice Shop,User,Bjoern Kimminich,3,0,Thu,"Eve-1, Eve-2",Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Juice Shop Round Table,OWASP Juice Shop,User,Bjoern Kimminich,2,0,Wed,PM-1,Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Juice Shop Challenge Refactoring,OWASP Juice Shop,Working,Bjoern Kimminich,2,0,Thu,AM-1,Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Juice Shop Hack'n'Code,OWASP Juice Shop,Working,Bjoern Kimminich,2,0,"Mon, Tue, Wed","Eve-1, Eve-2",Yes,No,Builder,PR.AT,G-EG-A,"Education, Hands-on Learning",
+Mobile Security Testing Guide onboarding,OWASP MSTG,User,Jeroen Willemsen,7,0,"Mon, Wed",AM-1,Yes,No,Builder,PR.IP,V-ST-B,Testing,
+OWASP Mobile Security Testing Guide 101,OWASP MSTG,User,Jeroen Willemsen,6,0,,,Yes,No,All,PR.IP,V-ST-B,Testing,"Times need to be clarified - probably need to create multiple sessions, so they will map correctly over sessions."
+Android and iOS Security Enhancements and Crackme Apps,OWASP MSTG,Working,Sven Schleier,5,1,,,Yes,No,All,PR.IP,V-ST-B,"Testing, MSTG, Mobile, iOS, Android","Times need to be clarified - probably need to create multiple sessions, so they will map correctly over sessions."
+Creating an iOS build pipeline with security checks,OWASP MSTG,Working,Sven Schleier,2,0,Wed,AM-1,Yes,No,Builder,PR.IP,V-ST-B,"Testing, MSTG, Mobile, iOS",
+Mobile AppSec Verification Standard (MASVS),OWASP MSTG,Working,Jeroen Beckers,7,0,Mon,"AM-1, DS-1, PM-1, PM-2, Eve-1",Yes,No,All,PR.IP,V-ST-B,"Testing, MSTG, Mobile, iOS, Android",Session run through all times (except Eve-2) on Monday
+Mobile Basic Security Testing and Reverse Engineering,OWASP MSTG,Working,Carlos Holguera,7,1,,,,,All,PR.IP,V-ST-B,"Testing, MSTG, Mobile, iOS, Android","Times need to be clarified - entered Mon, Tue, Wed, Thu and AM-1, DS-2, PM-1, PM-2, Eve-1, Eve-2"
+Zap - How to use it,OWASP Projects,User,,6,0,Tue,EVE-1,No,No,Breaker,PR.PT,,"ZAP, Tool, Automation",No organiser
+Application Security Verification Standard,OWASP Projects,Working,Jim Manico,9,0,Wed,PM-1,Yes,No,Builder,PR.IP,,"SDLC, Framework",
+OWASP Application Security Curriculum Project,OWASP Projects,Working,"Adrian Winckles, John DiLeo",,,Tue,AM-1,Yes,No,All,PR.AT,G-EG-A,"Education, Program Management",
+OWASP HoneyPot,OWASP Projects,Working,"Felipe Zipitria, Adrian Winckles",0,1,Wed,PM-2,Yes,No,Defender,DE.AE,,"Metrics, Detection, Automation",
+OWASP Media Project,OWASP Projects,Working,Jonathan Marcil,0,0,Tue,EVE-1,Yes,No,All,PR.AT,,Education,"Times need to be clarified - probably need to create multiple sessions, so they will map correctly over sessions."
+ZAP working session - automation,OWASP Projects,Working,Simon Bennet,5,1,Tue,AM-1,No,Yes,Breaker,PR.PT,,"ZAP, Tool, Automation",
+ZAP working session - future plans,OWASP Projects,Working,Simon Bennet,2,1,Wed,AM-1,Yes,Yes,Breaker,PR.PT,,"ZAP, Tool, Automation",
+ZAP working session - the HUD,OWASP Projects,Working,Simon Bennet,2,1,Tue,PM-1,Yes,Yes,Breaker,PR.PT,,"ZAP, Tool, Automation",
+SAMM user session - Introduction,OWASP SAMM,User,"Sebastien Deleersnyder, Bart De Win",4,0,Mon,PM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM user session - Round-table,OWASP SAMM,User,"Sebastien Deleersnyder, Bart De Win",4,0,Mon,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+Mapping OWASP DevSecOps Maturity Model to SAMMv2,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,PM-3,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Agile guidance,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,EV-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Alignment with other OWASP projects (Fri),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Fri ,DS-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Alignment with other OWASP projects (Thu),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,DS-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Alignment with other OWASP projects (Wed),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,DS-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Alignment with Threat Modeling,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Any Other Business,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Fri,PM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - DevOps guidance,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,PM-3,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Editing agreements and parallel editing,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,AM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Measurement model (Mon EV),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Mon,EV-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Measurement model (Mon PM),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Mon,PM-3,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Model Challenges (Tue),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,EV-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Model Challenges (Wed),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,EV-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Model discussions (Tue),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Model discussions (Wed),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Outreach program (Mon),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Mon,DS-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Outreach program (Tue),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,DS-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Outreach wrap-up,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,PM-3,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Parallel editing (Thu AM),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,AM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Parallel editing (Thu PM),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,PM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Parallel editing (Tue),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Tue,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Parallel editing (Wed PM),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,PM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Planning and Roadmap,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Fri,PM-2,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - SAMM benchmarking,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Thu,PM-3,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - SAMM documents and parallel editing (Wed AM),OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Wed,AM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+SAMM - Tooling,OWASP SAMM,Working,"Sebastien Deleersnyder, Bart De Win",4,0,Fri,AM-1,Yes,Yes,Builders,ID.GV,All,"SAMM, Governance, Metrics",
+Creating a generic diagram of a threat model,Threat Modeling,Working,Steven Wierckx,,,Tue,PM-1,Yes,Yes,Builder,ID.GV,D-TA-B,,
+Describe different ways of implementing TM in agile organisations,Threat Modeling,Working,Steven Wierckx,3,2,Wed,PM-2,Yes,Yes,Builder,ID.GV,D-TA-B,Threat Modeling,Time change not merged yet
+How do we persist the information from the TM Slack channel?,Threat Modeling,Working,Steven Wierckx,0,2,Tue,AM-1,Yes,Yes,Builder,ID.GV,D-TA-B,Threat Modeling,
+Incremental Threat Modeling,Threat Modeling,Working,"Irene Michlin, Steven Wierckx",0,0,Thu,PM-1,Yes,Yes,Builder,ID.GV,D-TA-B,Threat Modeling,New session
+LIGHTWEIGHT PRIVACY THREAT MODELING USING LINDDUN,Threat Modeling,Working,"Steven Wierckx, Kim Wuyts",4,1,Mon,PM-2,Yes,Yes,Builder,PR.AT,G-AT-A,Threat Modeling,
+Lightweight privacy threat modeling using LINDDUN Part II,Threat Modeling,Working,"Steven Wierckx, Kim Wuyts",,,Mon,PM-3,Yes,No,Builder,PR.AT,G-AT-A,Threat Modeling,"new session, needs to be merged"
+Open Session,Threat Modeling,Working,Steven Wierckx,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,D-TA-B,Threat Modeling,Can all be removed
+SAMMv2 - Threat Modeling,Threat Modeling,Working,"Steven Wierckx, Sebastien Deleersnyder",2,1,Thu,PM-3,Yes,Yes,Builder,ID.GV,D-TA-B,Threat Modeling,"Conflict with other session, can this be moved Seba?"
+STATE AND FUTURE OF THREAT MODELING,Threat Modeling,Working,Steven Wierckx,8,3,Thu,AM-1,Yes,Yes,Builder,PR.AT,G-AT-A,Threat Modeling,
+THREAT MODEL EXAMPLES PROJECT,Threat Modeling,Working,"Jonathan Marcil, Tash Norris",1,0,Wed,PM-3,Yes,Yes,Builder,PR.AT,G-AT-A,Threat Modeling,Updates to be merged
+THREAT MODEL EXAMPLES PROJECT - Part II,Threat Modeling,Working,"Jonathan Marcil, Tash Norris",1,0,Thu,PM-3,Yes,Yes,Builder,PR.AT,G-AT-A,Threat Modeling,"new session, needs to be merged"
+TOWARDS A UNIFIED WAY OF DESCRIBING THREAT MODELS,Threat Modeling,Working,Steven Wierckx,6,4,Thu,PM-1,Yes,Yes,Builder,ID.GV,D-TA-B,Threat Modeling,Time change not merged yet
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+,Threat Modeling,Working,,,,,,,,,,,,
+Using Wardley Maps and Cynefin for Security,Wardley maps,User,"Simon Wardley , Dave Snowden",2,0,Wed,PM-2,No,Yes,All,ID.BE,,"Wardley map, risk management",Double booking with Wardley Maps for Security
+Using Wardley Maps on SOC,Wardley maps,User,Tony Richards,5,1,Wed,PM-3,Yes,Yes,All,ID.BE,,"Wardley map, risk management",
+Wardley Maps for Security,Wardley maps,User,"Mario Platt, Tony Richards",4,0,Wed,PM-2,Yes,Yes,All,ID.BE,,"Wardley map, risk management",Double booking with previous line
+Cell based Structures for Security,Wardley maps,Working,"Simon Wardley, Tony Richards",2,1,Thu,AM-2,Yes,Yes,All,ID.BE,,"Wardley map, risk management",
+Hand's on Wardley Maps creation (Training Session),Wardley maps,Working,Tony Richards,3,0,Mon,PM-3,Yes,No,All,ID.BE,,"Wardley map, risk management",
+Introduction to Wardley Maps (Training Session),Wardley maps,Working,Tony Richards,2,0,Mon,PM-1,Yes,No,All,ID.BE,,"Wardley map, risk management",
+Mapping boot camp,Wardley maps,Working,Simon Wardley,3,1,Thu,AM-1,Yes,Yes,All,ID.BE,,"Wardley map, risk management",
+Wardley Mapping - Climatic Patterns and Using Doctrine,Wardley maps,Working,Simon Wardley,4,1,Thu,PM-2,Yes,Yes,All,ID.BE,,"Wardley map, risk management",
+Wardley Mapping - Coordinating functions within a PST organisation,Wardley maps,Working,Simon Wardley,2,0,Thu,PM-3,Yes,Yes,All,ID.BE,,"Wardley map, risk management",
+Strategic Challenges,,Keynote,Nick Drage,,,Mon,DS-2,,,,,,,"The time entry needs to be corrected, it's currently entered as 'D2-2'"
