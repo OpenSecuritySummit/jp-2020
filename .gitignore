@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.idea
+setup.html
+.pyc
+__pycache__
+.pytest_cache
