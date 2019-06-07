@@ -1,3 +1,6 @@
 [submodule "notebooks/oss2019"]
 	path = notebooks/oss2019
 	url = https://github.com/OpenSecuritySummit/oss2019.git
+[submodule "notebooks/Juice-Shop/juice-shop"]
+	path = notebooks/Juice-Shop/juice-shop
+	url = https://github.com/bkimminich/juice-shop.git
