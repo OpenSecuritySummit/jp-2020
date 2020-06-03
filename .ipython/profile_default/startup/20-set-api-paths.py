@@ -1,7 +1,3 @@
-from api.utils import *
-import pandas as pd
-
-
 import sys ;
 sys.path.append('/home/jovyan/GW-Bot')
 sys.path.append('/home/jovyan/OSBot-AWS')
