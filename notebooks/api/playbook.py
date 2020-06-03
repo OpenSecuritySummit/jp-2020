@@ -46,8 +46,8 @@ class PlaybookToAction():
 
     def create_action_from_playbook(self, playbook_key, text_to_replace): 
         self.text_to_replace = text_to_replace
-        self.api_jira        = api_jira_qa_server()                       # use QA server (during development)
-        #api_jira        = API_Jira()                                 # use live server
+#         self.api_jira        = api_jira_qa_server()                       # use QA server (during development)
+        api_jira        = API_Jira()                                 # use live server
         copy_issue_links = ['has task', 'has story','has question']     
         graph            = self.get_target_graph(playbook_key, copy_issue_links)
         playbook_issue   = API_Issues().issue(playbook_key)
