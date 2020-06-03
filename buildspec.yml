@@ -1,13 +1,40 @@
 version: 0.1
 phases:
-  build:
-    commands:
-      - echo "**** Starting build (i.e. run workflow)"
-      - git submodule init      
-      - git submodule update
-      - /home/jovyan/ngrok http --log stdout 8888 &
-      - pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite python-frontmatter
-      - cp -R -v .ipython /home/jovyan/
-      - cp -R -v .jupyter /home/jovyan/
-      - jupyter nbconvert --ExecutePreprocessor.timeout=600 --execute setup/setup.ipynb
-      - cd notebooks; jupyter notebook --allow-root
+    build:
+        commands:
+            - echo "**** Starting build (i.e. run workflow)"
+            - git submodule init
+            - git submodule update
+
+            # setup ngork
+            - /home/jovyan/ngrok http --log stdout 8888 &
+
+            # copy Jupyter config folders to the correct location
+            - cp -R -v .ipython /home/jovyan/
+            - cp -R -v .jupyter /home/jovyan/
+
+            # execute setup.ipynb notebook (mainly task is to the setup Git credentials)
+            - jupyter nbconvert --ExecutePreprocessor.timeout=600 --execute setup/setup.ipynb
+
+            # reload GWBot code
+            - pip uninstall -y osbot_aws osbot_jira osbot_jupyter
+
+            - cd /home/jovyan/    ; git clone https://github.com/filetrust/GW-Bot.git
+            - cd /home/jovyan/    ; git clone https://github.com/owasp-sbot/OSBot-Utils.git
+            - cd /home/jovyan/    ; git clone https://github.com/owasp-sbot/OSBot-AWS.git
+            - cd /home/jovyan/    ; git clone https://github.com/filetrust/OSBot-jira.git
+            - cd /home/jovyan/    ; git clone https://github.com/filetrust/OSBot-browser.git
+            - cd /home/jovyan/    ; git clone https://github.com/filetrust/OSBot-Jupyter.git
+
+
+            # handle bug in latest version of qgrid that is incompatible with pandas 1.0 (see https://github.com/Kaggle/docker-python/pull/699/files and https://github.com/quantopian/qgrid/issues/287)
+            - pip install pandas==0.25.3
+
+
+
+            # start Jupyter server
+            - cd notebooks; jupyter notebook --allow-root
+
+
+
+            #- pip install --upgrade osbot_jupyter osbot_jira osbot_gsuite python-frontmatter
