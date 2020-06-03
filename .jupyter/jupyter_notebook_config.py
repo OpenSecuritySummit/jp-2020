@@ -1,6 +1,11 @@
 import os
-from pbx_gs_python_utils.utils.Process import Process
-from pbx_gs_python_utils.utils.Lambdas_Helpers import slack_message
+import sys ;
+sys.path.append('/home/jovyan/GW-Bot')
+sys.path.append('/home/jovyan/OSBot-AWS')
+sys.path.append('/home/jovyan/OSBot-Utils')
+
+from osbot_utils.utils.Process import Process
+from gw_bot.helpers.Lambda_Helpers import slack_message
 
 def log_message(message):
     slack_message(message, [], 'GDL2EC3EE', 'T7F3AUXGV')
