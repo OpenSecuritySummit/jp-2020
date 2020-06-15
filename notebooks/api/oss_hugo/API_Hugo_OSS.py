@@ -116,7 +116,7 @@ class API_Hugo_OSS:
         if field_type:
             return df[df['type']==field_type].reset_index(drop=True)
 
-        df['organisers'] = df['organisers'].apply(lambda x: x.split(',') if type(x) is str else x)
+        df['organizers'] = df['organizers'].apply(lambda x: x.split(',') if type(x) is str else x)
         return df
 
     def qgrid_merged_gsheet_and_hugo_data(self,reload=False):
